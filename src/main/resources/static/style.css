@@ -9,13 +9,13 @@ body {
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.3);
     display: grid;
-    grid-template-rows: auto 1fr auto; /* Define grid rows */
+    grid-template-rows: 1fr 1fr 1fr; /* Define grid rows */
     min-height: 100vh;
 }
 
 .container {
     max-width: 800px; /* Set a maximum width for the container */
-    margin: auto; /* Center the container horizontally */
+    /*margin: auto; /* Center the container horizontally (Det her flytter teksten på centeret af websitet.) */
     padding: 20px; /* Add padding for content */
 }
 

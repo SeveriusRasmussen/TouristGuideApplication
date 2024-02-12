@@ -15,6 +15,12 @@ The methods are like the Repository class, just simpler for the controller to us
 @Service
 public class TouristService {
     TouristResository touristResository = new TouristResository();
+    /*private TouristRepository touristRepository;
+
+    public TouristController(TouristResository touristResository) {
+        this.touristRepository = touristResository;
+    }*/
+
 
     public List<TouristAttraction> getAttractions() {
         return touristResository.getAttractions();

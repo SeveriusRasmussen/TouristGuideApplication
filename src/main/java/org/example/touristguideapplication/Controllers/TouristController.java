@@ -20,6 +20,12 @@ Ex. localhost:8080 is the
 public class TouristController {
     TouristService touristService = new TouristService();
 
+    /*private TouristService touristService;
+
+    public TouristSerController(TouristService touristService) {
+        this.touristService = touristService;
+    }*/
+
     @GetMapping("") //context root
     public ResponseEntity<List<TouristAttraction>> getAllAttractions(){
         List<TouristAttraction> attractionList = touristService.getAttractions();
