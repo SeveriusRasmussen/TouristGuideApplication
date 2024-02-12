@@ -39,5 +39,32 @@ ex:
 <!-- ... -->
 <h6>This is a Heading 6</h6>
 ________________
-<p>
+<p>...</p>
+Define a paragraph of text.
+ex:
+<p>This is a paragraph of text.</p>
+________________
+<a>...</a>
+Creates a hyperlink (anchor) to another webpage or resource.
+ex:
+<a href="https://www.example.com">Visit Example.com</a>
+________________
+<img>
+Embeds an image in the document
+ex:
+<img src="image.jrg" alt="Description of the image">
+________________
+<ul>, <ol>, <li>  ...  </ul>, </ol>, </li>
+<ul>: defines an unordered (bulleted) list.
+<ol>: defines an ordered (numbered) list.
+<li>: defines a list item.
+ex:
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+<ol>
+    <li>First</li>
+    <li>second</li>
+</ol>
 */

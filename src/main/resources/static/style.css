@@ -1,15 +1,44 @@
-/*ul.myList{
-    display: inline-block;
-    text-align: left;
-}
-
-.container{
-    text-align: center;
-    color: darkred;
-}
-
-.gridLayout{
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-image: url('https://mediaim.expedia.com/destination/9/9b7d630e362f0faca8d28c9a86b2fe46.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.3);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
-}*/
+    grid-template-rows: auto 1fr auto; /* Define grid rows */
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for content */
+}
+
+h1, p, ul, li, footer {
+    text-align: left;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Adjust padding for spacing on the left */
+}
+
+h1, p, footer {
+    padding-bottom: 5px; /* Add padding between elements */
+}
+
+ul.myList {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+ul.myList li {
+    margin-bottom: 10px; /* Adjust margin between list items */
+}
+
+footer {
+    padding-top: 10px; /* Add padding at the top of the footer */
+}
